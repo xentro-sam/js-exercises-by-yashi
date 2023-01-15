@@ -9,3 +9,5 @@ const hasScriptArrow = (input) => {
     let result = input.endsWith('Script')
     return result
 }
+
+module.exports = {hasScript, hasScriptArrow}
