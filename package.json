@@ -1,0 +1,22 @@
+{
+  "name": "js-exercises-by-yashi",
+  "version": "1.0.0",
+  "description": "> **DISCLAIMER:** DON'T WRITE CODE YOU DON'T UNDERSTAND. IF FOUND GUILTY, BE PREPARED FOR `rm -rf ./*` > > **_GOOGLE IT TO KNOW IT'S MEANING._** ## Prework",
+  "main": "question1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xentro-sam/js-exercises-by-yashi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xentro-sam/js-exercises-by-yashi/issues"
+  },
+  "homepage": "https://github.com/xentro-sam/js-exercises-by-yashi#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
