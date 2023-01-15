@@ -31,3 +31,5 @@ const getLargestEvenArrow = (numbers) => {
 
     return largestEven
 }
+
+module.exports = {getLargestEvenNumber, getLargestEvenArrow}
