@@ -35,3 +35,5 @@ const replaceCharacterWithNextArrow = (input) => {
 
     return result
 }
+
+module.exports = {replaceCharacterWithNext, replaceCharacterWithNextArrow}
