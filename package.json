@@ -4,7 +4,7 @@
   "description": "> **DISCLAIMER:** DON'T WRITE CODE YOU DON'T UNDERSTAND. IF FOUND GUILTY, BE PREPARED FOR `rm -rf ./*` > > **_GOOGLE IT TO KNOW IT'S MEANING._** ## Prework",
   "main": "question1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
