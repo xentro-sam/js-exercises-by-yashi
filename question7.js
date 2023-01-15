@@ -1,11 +1,13 @@
 // using normal function
-function joinExceptFirst(input1, input2) {
-    let result = input1.substring(1) + input2.substring(1)
+function joinExceptFirst(input) {
+    let result = input[0].substring(1) + input[1].substring(1)
     return result
 }
 
 // using arrow function
-const joinExceptFirstArrow = (input1, input2) => {
-    let result = input1.substring(1) + input2.substring(1)
+const joinExceptFirstArrow = (input) => {
+    let result = input[0].substring(1) + input[1].substring(1)
     return result
 }
+
+module.exports = {joinExceptFirst, joinExceptFirstArrow}
