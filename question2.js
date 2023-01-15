@@ -31,3 +31,5 @@ const checkSameDigitsArrow = (num) => {
 
     return isSame
 }
+
+module.exports = {checkSameDigits, checkSameDigitsArrow}
