@@ -25,3 +25,5 @@ const getLongestStringArrow = (input) => {
 
     return longestString
 }
+
+module.exports = {getLongestString, getLongestStringArrow}
