@@ -27,3 +27,5 @@ const countVowelsArrow = (input) => {
 
     return count
 }
+
+module.exports = {countVowels, countVowelsArrow}
