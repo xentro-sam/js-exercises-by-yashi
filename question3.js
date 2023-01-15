@@ -34,3 +34,5 @@ const changeCapitalizationArrow = (input) => {
 
     return output
 }
+
+module.exports = {changeCapitalization, changeCapitalizationArrow}
