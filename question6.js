@@ -1,13 +1,13 @@
 // using normal function
 function hasScript(input) {
-    let result = input.endsWith('Script')
-    return result
+  let result = input.endsWith('Script');
+  return result;
 }
 
 // using arrow function
 const hasScriptArrow = (input) => {
-    let result = input.endsWith('Script')
-    return result
-}
+  let result = input.endsWith('Script');
+  return result;
+};
 
-module.exports = {hasScript, hasScriptArrow}
+module.exports = {hasScript, hasScriptArrow};
