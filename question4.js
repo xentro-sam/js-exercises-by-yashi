@@ -7,6 +7,9 @@ function getLongestString(input) {
         if(input[i].length > longestString.length) {
             longestString = input[i]
         }
+        else if(input[i].length === longestString.length) {
+            longestString = input[i] < longestString ? input[i] : longestString;
+        }
     }
 
     return longestString
@@ -20,6 +23,9 @@ const getLongestStringArrow = (input) => {
     for(let i = 0; i < size; i++) {
         if(input[i].length > longestString.length) {
             longestString = input[i]
+        }
+        else if(input[i].length === longestString.length) {
+            longestString = input[i] < longestString ? input[i] : longestString;
         }
     }
 
