@@ -8,5 +8,8 @@ describe('Array Utilities', () => {
     it('throws an error if given a non-array input', () => {
       expect(() => tripleElementsAndFilterEven('shivam')).toThrow(TypeError);
     });
+    it('throws an error if given an array containing elements of type other than a number', () => {
+      expect(() => tripleElementsAndFilterEven([1, 2, 'apple', 4])).toThrow(Error);
+    })
   });
 });
