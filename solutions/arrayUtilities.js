@@ -9,6 +9,10 @@ const tripleElementsAndFilterEven = (numbers) => {
     }
   });
 
+  if(numbers.length === 0) {
+    throw new Error("The given array is empty");
+  }
+
   let result = numbers.map(item => item * 3);
   result = result.filter((item) => {
     if(item % 2 === 0) {
