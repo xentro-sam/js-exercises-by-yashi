@@ -1,18 +1,18 @@
-const {replaceCharacterWithNext, replaceCharacterWithNextArrow} = require('../solutions/question9')
+const {replaceCharacterWithNext, replaceCharacterWithNextArrow} = require('../solutions/question9');
 
 test('"codeacademy" should return "dpefbdbefnz"', () => {
-    expect(replaceCharacterWithNext("codeacademy")).toBe("dpefbdbefnz")
-})
+  expect(replaceCharacterWithNext('codeacademy')).toBe('dpefbdbefnz');
+});
 
 test('"lazyinterns" should return "mbazjoufsot"', () => {
-    expect(replaceCharacterWithNext("lazyinterns")).toBe("mbazjoufsot")
-})
+  expect(replaceCharacterWithNext('lazyinterns')).toBe('mbazjoufsot');
+});
 
 
 test('"codeacademy" should return "dpefbdbefnz"', () => {
-    expect(replaceCharacterWithNextArrow("codeacademy")).toBe("dpefbdbefnz")
-})
+  expect(replaceCharacterWithNextArrow('codeacademy')).toBe('dpefbdbefnz');
+});
 
 test('"lazyinterns" should return "mbazjoufsot"', () => {
-    expect(replaceCharacterWithNextArrow("lazyinterns")).toBe("mbazjoufsot")
-})
+  expect(replaceCharacterWithNextArrow('lazyinterns')).toBe('mbazjoufsot');
+});
