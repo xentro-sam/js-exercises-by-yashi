@@ -10,9 +10,9 @@ describe('Array Utilities', () => {
     });
     it('throws an error if given an array containing elements of type other than a number', () => {
       expect(() => tripleElementsAndFilterEven([1, 2, 'apple', 4])).toThrow(Error);
-    })
+    });
     it('throws an error if the given array is empty', () => {
       expect(() => tripleElementsAndFilterEven([])).toThrow(Error);
-    })
+    });
   });
 });
