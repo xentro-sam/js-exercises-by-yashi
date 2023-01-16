@@ -1,4 +1,4 @@
-const { tripleElementsAndFilterEven } = require('./arrayUtilities');
+const { tripleElementsAndFilterEven } = require('../solutions/arrayUtilities');
 
 describe('Array Utilities', () => {
   describe('Double Array Elements', () => {

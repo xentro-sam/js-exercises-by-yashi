@@ -1,4 +1,4 @@
-const {checkSameDigits, checkSameDigitsArrow} = require('./question2')
+const {checkSameDigits, checkSameDigitsArrow} = require('../solutions/question2')
 
 test('22 should return "true"', () => {
     expect(checkSameDigits(22)).toBe(true)

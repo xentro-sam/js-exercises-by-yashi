@@ -1,4 +1,4 @@
-const {getLongestString, getLongestStringArrow} = require('./question4')
+const {getLongestString, getLongestStringArrow} = require('../solutions/question4')
 
 test('["we", "love", "code", "academy"] should return "academy"', () => {
     expect(getLongestString(["we", "love", "code", "academy"])).toBe("academy")

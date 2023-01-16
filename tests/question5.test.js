@@ -1,4 +1,4 @@
-const {isLeapYear, isLeapYearArrow} = require('./question5')
+const {isLeapYear, isLeapYearArrow} = require('../solutions/question5')
 
 test('2000 should return "true"', () => {
     expect(isLeapYear(2000)).toBe(true)

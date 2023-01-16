@@ -1,4 +1,4 @@
-const {hasScript, hasScriptArrow} = require('./question6')
+const {hasScript, hasScriptArrow} = require('../solutions/question6')
 
 test('"JavaScript" should return "true"', () => {
     expect(hasScript("JavaScript")).toBe(true)

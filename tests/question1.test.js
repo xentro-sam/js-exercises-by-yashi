@@ -1,4 +1,4 @@
-const {getLargestEvenNumber, getLargestEvenArrow} = require('./question1')
+const {getLargestEvenNumber, getLargestEvenArrow} = require('../solutions/question1')
 
 test('[1, 2, 3, 4, 5] should give "4"', () => {
     expect(getLargestEvenNumber([1, 2, 3, 4, 5])).toBe(4)

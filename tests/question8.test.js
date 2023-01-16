@@ -1,4 +1,4 @@
-const {countVowels, countVowelsArrow} = require('./question8')
+const {countVowels, countVowelsArrow} = require('../solutions/question8')
 
 test('"codeacademy" should return "5"', () => {
     expect(countVowels("codeacademy")).toBe(5)

@@ -1,4 +1,4 @@
-const {replaceCharacterWithNext, replaceCharacterWithNextArrow} = require('./question9')
+const {replaceCharacterWithNext, replaceCharacterWithNextArrow} = require('../solutions/question9')
 
 test('"codeacademy" should return "dpefbdbefnz"', () => {
     expect(replaceCharacterWithNext("codeacademy")).toBe("dpefbdbefnz")

@@ -1,4 +1,4 @@
-const {joinExceptFirst, joinExceptFirstArrow} = require('./question7')
+const {joinExceptFirst, joinExceptFirstArrow} = require('../solutions/question7')
 
 test('["code", "academy"] should return "odecademy"', () => {
     expect(joinExceptFirst(["code", "academy"])).toBe("odecademy")
