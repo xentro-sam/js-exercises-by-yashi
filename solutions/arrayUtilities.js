@@ -47,6 +47,6 @@ const tripleElementsAndFilterEvenUsingReduce = (numbers) => {
   }, []);
 
   return result;
-}
+};
 
 module.exports = { tripleElementsAndFilterEven, tripleElementsAndFilterEvenUsingReduce };
