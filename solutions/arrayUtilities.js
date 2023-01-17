@@ -23,4 +23,30 @@ const tripleElementsAndFilterEven = (numbers) => {
   return result;
 };
 
-module.exports = { tripleElementsAndFilterEven };
+const tripleElementsAndFilterEvenUsingReduce = (numbers) => {
+  if(!Array.isArray(numbers)) {
+    throw new TypeError('The input is not an array');
+  }
+
+  numbers.forEach((item) => {
+    if(typeof(item) !== 'number') {
+      throw new Error('Not all the elements in the array are numbers');
+    }
+  });
+
+  if(numbers.length === 0) {
+    throw new Error('The given array is empty');
+  }
+
+  let result = numbers.reduce((acc, item) => {
+    let triple = item * 3;
+    if(triple % 2 === 0) {
+      acc.push(triple);
+    }
+    return acc;
+  }, []);
+
+  return result;
+}
+
+module.exports = { tripleElementsAndFilterEven, tripleElementsAndFilterEvenUsingReduce };
